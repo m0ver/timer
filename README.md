@@ -16,7 +16,7 @@ A simple javascript timer framework
 
 # code example
 ```javascript
-var timer = new Timer(1);
+var timer = new Timer();
 timer.setAction(function() {
 	// @TODO
 	
