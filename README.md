@@ -16,30 +16,30 @@ A simple javascript timer framework
 
 # code example
 ```javascript
-	var timer = new Timer(1);
-	timer.setAction(function() {
-      // @TODO
-      
-      // To start the timer in next second, 
-      // without this line the task will be executed for once
-      this.start();
-	});
-	timer.start().complete(function(){
-      // @TODO
-	});
-		
+var timer = new Timer(1);
+timer.setAction(function() {
+	// @TODO
+	
+	// To start the timer in next second, 
+	// without this line the task will be executed for once
+	this.start();
+});
+timer.start().complete(function(){
+	// @TODO
+});
+	
 ```
 ```javascript
-	var timer = new Timer(1,function(){
-      // @TODO
+var timer = new Timer(1,function(){
+	// @TODO
 		  
-      // To start the timer in next second, 
-      // without this line the task will be executed for once
-      this.start();
-	});
-	timer.start().complete(function(){
-      // @TODO
-	});
+	// To start the timer in next second, 
+	// without this line the task will be executed for once
+	this.start();
+});
+timer.start().complete(function(){
+	// @TODO
+});
 
 
 ```
