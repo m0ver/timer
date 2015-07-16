@@ -19,7 +19,8 @@ A simple javascript timer framework
 	timer.setAction(function() {
       // @TODO
       
-      // To start the timer in next second, without this line the task will be executed for once
+      // To start the timer in next second, 
+      // without this line the task will be executed for once
       this.start();
 	});
 	timer.start().complete(function(){
@@ -31,7 +32,8 @@ A simple javascript timer framework
 	var timer = new Timer(1,function(){
       // @TODO
 		  
-      // To start the timer in next second, without this line the task will be executed for once
+      // To start the timer in next second, 
+      // without this line the task will be executed for once
       this.start();
 	});
 	timer.start().complete(function(){
