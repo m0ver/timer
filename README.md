@@ -12,6 +12,7 @@ A simple javascript timer framework
  * `start()`：start the timer
  * `stop()`：stop the timer
  * `complete()`：once the tasks done, it will be triggered
+ * `status()`：retrieve the current status
 
 # code example
 ```javascript
