@@ -1,20 +1,20 @@
-# timer
-A simple javascript timer framework
+# timer.js
+A simple timer framework
 
-# status 
+# Status 
  * started
  * running
  * stopped
  * completed
 
-# functions
+# Functions
  * `setAction()`：some tasks you want to do
  * `start()`：start the timer
  * `stop()`：stop the timer
  * `complete()`：once the tasks done, it will be triggered
  * `status()`：retrieve the current status
 
-# code example
+# Code example
 ```javascript
 var timer = new Timer();
 timer.setAction(function() {
